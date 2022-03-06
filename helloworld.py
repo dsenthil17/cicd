@@ -10,4 +10,4 @@ if __name__=='__main__':
     parser.add_argument('-m', '--input-msg', dest='msg')
     args = parser.parse_args(sys.argv[1:])
 
-    print args.msg
+    print(args.msg)
