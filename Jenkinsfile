@@ -9,7 +9,7 @@ pipeline {
 
     stage('execution') {
       steps {
-        sh 'python printmessage.py -m "hello this executed" '
+        sh 'python helloworld.py -m "hello this executed" '
       }
     }
 
